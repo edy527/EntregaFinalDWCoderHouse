@@ -1,15 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap");
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-header {
+.main {
+  width: auto;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../img/letercake.jpg);
 }
+
 a {
   text-decoration: none;
 }
@@ -18,9 +17,7 @@ li {
   list-style: none;
 }
 /* menu */
-.bg-light {
-  background-color: transparent !important;
-}
+
 .main {
   text-align: center;
   margin-right: 40px;
