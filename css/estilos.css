@@ -80,3 +80,9 @@ body {
   height: 400px;
   object-fit: cover;
 }
+
+.icono {
+  font-size: 30px;
+  padding: 10px;
+  color: #ddd;
+}

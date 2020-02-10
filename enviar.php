@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "edgardobeltran@gmail.com";
+$myemail  = "edgardobeltran527@gmail.com";
 
 $ip = ($_SERVER['X_FORWARDED_FOR']) ? $_SERVER['X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR'];
 
