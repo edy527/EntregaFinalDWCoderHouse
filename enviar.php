@@ -11,7 +11,7 @@ $subject .= "Asunto, por ej, contacto desde mi pagina web";
 $nombre = $_REQUEST['nombre'];
 $apellido = $_REQUEST['apellido'];
 $email = $_REQUEST['email'];
-$comentario = $_REQUEST['mensaje'];
+$mensaje = $_REQUEST['mensaje'];
 
 /* Poner que información aparecerá en el email, veran que toma las variables depende lo que configuramos mas arriba */
 $message = "Contacto desde mi pagina web:
@@ -21,7 +21,7 @@ Apellido: $apellido
 E-Mail: $email
 
 mensaje:
- $comentario
+ $mensaje
 
 ";
 
