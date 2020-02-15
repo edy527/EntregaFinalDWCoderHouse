@@ -5,7 +5,7 @@ $myemail  = "edgardobeltran527@gmail.com";
 $ip = ($_SERVER['X_FORWARDED_FOR']) ? $_SERVER['X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR'];
 
 // Tomar datos del formulario, segun los campos, que deben coincidir con lo q tenemos en contacto.html
-$subject .= "Asunto, por ej, contacto desde mi pagina web";
+$subject .= "Contacto desde web memesh";
 
 // Los campos
 $nombre = $_REQUEST['nombre'];
